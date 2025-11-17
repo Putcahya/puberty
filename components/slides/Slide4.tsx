@@ -23,8 +23,8 @@ const Slide4: React.FC = () => {
     finishAudioRef.current = new Audio(finishSoundPath);
 
     // Optional: set volume defaults
-    correctAudioRef.current.volume = 0.9;
-    incorrectAudioRef.current.volume = 1;
+    correctAudioRef.current.volume = 0.7;
+    incorrectAudioRef.current.volume = 2;
     finishAudioRef.current.volume = 0.9;
   }, []);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
