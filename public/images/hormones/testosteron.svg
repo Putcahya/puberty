@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#E67E22" opacity="0.1" rx="10"/>
+  
+  <!-- Molecule structure placeholder -->
+  <circle cx="60" cy="80" r="15" fill="#E67E22" stroke="#E67E22" stroke-width="2"/>
+  <circle cx="120" cy="60" r="15" fill="#E67E22" stroke="#E67E22" stroke-width="2"/>
+  <circle cx="140" cy="120" r="15" fill="#E67E22" stroke="#E67E22" stroke-width="2"/>
+  <circle cx="80" cy="140" r="15" fill="#E67E22" stroke="#E67E22" stroke-width="2"/>
+  
+  <!-- Connecting lines -->
+  <line x1="60" y1="80" x2="120" y2="60" stroke="#E67E22" stroke-width="3"/>
+  <line x1="120" y1="60" x2="140" y2="120" stroke="#E67E22" stroke-width="3"/>
+  <line x1="140" y1="120" x2="80" y2="140" stroke="#E67E22" stroke-width="3"/>
+  <line x1="80" y1="140" x2="60" y2="80" stroke="#E67E22" stroke-width="3"/>
+  
+  <!-- Label -->
+  <text x="100" y="190" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#E67E22">Testosteron</text>
+</svg>

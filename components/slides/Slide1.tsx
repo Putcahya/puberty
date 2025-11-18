@@ -6,7 +6,7 @@ import { slide1Content } from '../../constants/content';
 const Slide1: React.FC = () => {
   return (
     <SlideContainer>
-      <div className="flex flex-col lg:flex-row items-center gap-8 h-full">
+      <div className="flex flex-col lg:flex-row items-center gap-8 h-full mt-10">
         <div className="lg:w-1/2 w-full flex-shrink-0">
           <div className="aspect-w-16 aspect-h-9 bg-brand-dark rounded-xl shadow-2xl flex items-center justify-center">
             <div className="text-center text-white p-4">
@@ -19,8 +19,8 @@ const Slide1: React.FC = () => {
           </div>
         </div>
         <div className="lg:w-1/2 w-full">
-          <h2 className="text-2xl md:text-3xl font-bold text-brand-primary mb-4">{slide1Content.title}</h2>
-          <p className="text-md md:text-lg text-brand-text leading-relaxed justify">
+          <h2 className="text-2xl md:text-3xl font-bold text-brand-primary mb-4 pt-10 mt-10 my-10">{slide1Content.title}</h2>
+          <p className="text-md md:text-lg text-brand-text leading-relaxed justify ">
             {slide1Content.text}
           </p>
         </div>

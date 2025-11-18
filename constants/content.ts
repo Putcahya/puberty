@@ -2,7 +2,7 @@
 import { Hotspot, QuizQuestion, DialogueMessage } from '../types';
 
 export const slide1Content = {
-  title: "Welcome to Puberty!",
+  title: "Welcome to Proud of My Changes: The Truth About Puberty!",
   text: "Pubertas adalah masa transisi penting di mana seorang anak mengalami perubahan fisik, hormonal, dan emosional menuju dewasa yang mampu melakukan reproduksi. Pada masa pubertas, tubuh mulai memproduksi hormon khusus, yaitu testosteron pada anak laki-laki dan estrogen pada anak perempuan, yang memicu munculnya ciri-ciri seksual sekunder seperti tumbuhnya jakun dan suara yang lebih berat pada laki-laki, serta pertumbuhan payudara dan menstruasi pada perempuan. Selain itu, terjadi pertumbuhan tinggi badan, perubahan bentuk tubuh, dan aktivitas kelenjar minyak yang membuat kulit lebih berminyak. Masa ini bukan hanya perubahan fisik, tapi juga perubahan emosi dan sosial yang menuntut remaja untuk belajar menerima dirinya sendiri dan memahami peran sosialnya. Semua proses ini adalah hal yang normal dan menandai kesiapan tubuh dan jiwa menghadapi kehidupan dewasa."
 };
 
@@ -12,16 +12,16 @@ export const maleHotspots: Hotspot[] = [
     { id: 'm-armpit', top: '30%', left: '65%', title: 'Ketiak', explanation: 'Banyaknya keringat dan bau badan muncul karena kelenjar keringat menjadi lebih aktif, berfungsi untuk membantu tubuh mengatur suhu saat metabolisme meningkat pada masa pertumbuhan.', image: '/images/anggota_tubuh/ketiak.jpg' },
     { id: 'm-face', top: '10%', left: '50%', title: 'Wajah', explanation: 'Kulit yang berminyak dan muncul jerawat terjadi karena kelenjar minyak aktif menghasilkan lebih banyak minyak, yang bisa menyumbat pori-pori dan menyebabkan jerawat.', image: '/images/anggota_tubuh/face.jpg' },
     { id: 'm-private', top: '60%', left: '50%', title: 'Organ Reproduksi', explanation: 'Testis mulai membesar dan meningkatkan produksi hormon testosteron, yang memicu pertumbuhan organ reproduksi. Penis dan skrotum bertambah besar, menandakan kesiapan tubuh untuk fungsi reproduksi di masa depan. Proses ini biasanya dimulai antara usia 10 hingga 14 tahun.', image: '/images/anggota_tubuh/kemaluan_cowok.jpg' },
-    { id: 'm-pubic', top: '55%', left: '45%', title: 'Area Kemaluan', explanation: 'Rambut wajah, ketiak, dan kemaluan tumbuh sebagai tanda kedewasaan seksual yang dipicu oleh hormon testosteron yang menstimulasi folikel rambut di area-area tersebut untuk tumbuh lebih tebal dan gelap.', image: '/images/hotspots/m-pubic.svg' },
+    { id: 'm-pubic', top: '55%', left: '45%', title: 'Area Kemaluan', explanation: 'Rambut wajah, ketiak, dan kemaluan tumbuh sebagai tanda kedewasaan seksual yang dipicu oleh hormon testosteron yang menstimulasi folikel rambut di area-area tersebut untuk tumbuh lebih tebal dan gelap.', image: '/images/anggota_tubuh/kemaluan_cowok.jpg' },
     { id: 'm-mood', top: '30%', left: '45%', title: 'Hati & Suasana Hati', explanation: 'Perubahan hati dan suasana hati juga normal karena hormon memengaruhi bagian otak yang mengatur emosi. Oleh sebab itu, fluktuasi suasana hati sering terjadi selama pubertas.', image: '/images/anggota_tubuh/chest.jpg' },
 ];
 
 export const femaleHotspots: Hotspot[] = [
-    { id: 'f-breast', top: '30%', left: '35%', title: 'Payudara', explanation: "Tanda pertama pubertas adalah 'tunas payudara' — benjolan kecil di bawah puting. Ini adalah awal pertumbuhan payudara yang normal, bisa disertai rasa nyeri ringan yang akan berkurang seiring waktu.", image: '/images/hotspots/f-breast.svg' },
-    { id: 'f-hair', top: '55%', left: '60%', title: 'Rambut', explanation: 'Rambut yang lebih kasar mulai tumbuh di area kemaluan, di bawah lengan, dan di kaki. Tumbuhnya rambut kemaluan bisa menjadi tanda pertama pubertas sebelum payudara berkembang.', image: '/images/hotspots/f-hair.svg' },
-    { id: 'f-discharge', top: '62%', left: '50%', title: 'Keputihan', explanation: 'Keputihan bening atau putih dalam jumlah sedikit hingga sedang, biasanya muncul 6-12 bulan sebelum menstruasi pertama. Ini adalah tanda normal tubuh merespons peningkatan hormon estrogen.', image: '/images/hotspots/f-discharge.svg' },
-    { id: 'f-menstruation', top: '58%', left: '35%', title: 'Menstruasi', explanation: 'Menstruasi pertama biasanya terjadi 2-3 tahun setelah tunas payudara muncul, rata-rata sekitar usia 12 tahun. Ini menandai tubuh mulai siap untuk fungsi reproduksi.', image: '/images/hotspots/f-menstruation.svg' },
-    { id: 'f-mood', top: '25%', left: '45%', title: 'Hati & Suasana Hati', explanation: 'Sama seperti laki-laki, perubahan hormon estrogen juga sangat mempengaruhi suasana hati. Mood swings, atau perasaan yang berubah-ubah, adalah hal yang sangat wajar dialami.', image: '/images/hotspots/f-mood.svg' },
+    { id: 'f-breast', top: '30%', left: '35%', title: 'Payudara', explanation: "Tanda pertama pubertas adalah 'tunas payudara' — benjolan kecil di bawah puting. Ini adalah awal pertumbuhan payudara yang normal, bisa disertai rasa nyeri ringan yang akan berkurang seiring waktu.", image: '/images/anggota_tubuh/payudara.png' },
+    { id: 'f-hair', top: '55%', left: '60%', title: 'Rambut', explanation: 'Rambut yang lebih kasar mulai tumbuh di area kemaluan, di bawah lengan, dan di kaki. Tumbuhnya rambut kemaluan bisa menjadi tanda pertama pubertas sebelum payudara berkembang.', image: '/images/anggota_tubuh/v.jpg' },
+    { id: 'f-discharge', top: '62%', left: '50%', title: 'Keputihan', explanation: 'Keputihan bening atau putih dalam jumlah sedikit hingga sedang, biasanya muncul 6-12 bulan sebelum menstruasi pertama. Ini adalah tanda normal tubuh merespons peningkatan hormon estrogen.', image: '/images/anggota_tubuh/v.jpg' },
+    { id: 'f-menstruation', top: '58%', left: '35%', title: 'Menstruasi', explanation: 'Menstruasi pertama biasanya terjadi 2-3 tahun setelah tunas payudara muncul, rata-rata sekitar usia 12 tahun. Ini menandai tubuh mulai siap untuk fungsi reproduksi.', image: '/images/anggota_tubuh/v.jpg' },
+    { id: 'f-mood', top: '25%', left: '45%', title: 'Hati & Suasana Hati', explanation: 'Sama seperti laki-laki, perubahan hormon estrogen juga sangat mempengaruhi suasana hati. Mood swings, atau perasaan yang berubah-ubah, adalah hal yang sangat wajar dialami.', image: '/images/anggota_tubuh/suasana_hati.png' },
 ];
 
 

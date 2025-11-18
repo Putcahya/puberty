@@ -2,9 +2,14 @@
 import React from 'react';
 import SlideContainer from '../SlideContainer';
 
-const HormoneCard: React.FC<{ title: string; subtitle: string; description: string; color: string; children: React.ReactNode; stats: {label: string; value: string}[] }> = ({ title, subtitle, description, color, children, stats }) => {
+const HormoneCard: React.FC<{ title: string; subtitle: string; description: string; color: string; children: React.ReactNode; stats: {label: string; value: string}[]; image?: string }> = ({ title, subtitle, description, color, children, stats, image }) => {
     return (
         <div className={`border-l-4 ${color} bg-white/70 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300`}>
+            {image && (
+                <div className="mb-4 flex justify-center">
+                    <img src={image} alt={title} className="h-40 w-40 object-contain" />
+                </div>
+            )}
             <div className="flex items-center gap-4 mb-4">
                 <div className={`p-3 rounded-full ${color.replace('border', 'bg').replace('-primary', '-primary/20').replace('-secondary', '-secondary/20')}`}>
                     {children}
@@ -38,8 +43,9 @@ const Slide3: React.FC = () => {
             <HormoneCard
                 title="Testosteron"
                 subtitle="Hormon 'Laki-Laki'"
-                description="Testosteron adalah “hormon Laki-Laki” yang membuat tubuh laki-laki berubah saat pubertas, seperti membuat otot tumbuh, suara menjadi berat, dan rambut mulai tumbuh di wajah serta tubuh. Tapi yang menarik, hormon ini juga ada di tubuh perempuan, walaupun dalam jumlah kecil."
+                description="Testosteron adalah &quot;hormon Laki-Laki&quot; yang membuat tubuh laki-laki berubah saat pubertas, seperti membuat otot tumbuh, suara menjadi berat, dan rambut mulai tumbuh di wajah serta tubuh. Tapi yang menarik, hormon ini juga ada di tubuh perempuan, walaupun dalam jumlah kecil."
                 color="border-brand-primary"
+                image="/images/anggota_tubuh/testosteron_icon.jpg"
                 stats={[
                     { label: "Kadar Normal (Laki-laki)", value: "250-1.100 ng/dL" },
                     { label: "Kadar Normal (Perempuan)", value: "8-60 ng/dL" }
@@ -51,8 +57,9 @@ const Slide3: React.FC = () => {
             <HormoneCard
                 title="Estrogen"
                 subtitle="Hormon 'Perempuan'"
-                description="Estrogen adalah “hormon Perempuan” yang memicu perubahan seperti pertumbuhan payudara, mulai menstruasi, dan membuat pinggul melebar. Estrogen juga ada pada laki-laki dalam jumlah kecil dan berperan menjaga kesehatan jantung dan metabolisme tubuh mereka."
+                description="Estrogen adalah &quot;hormon Perempuan&quot; yang memicu perubahan seperti pertumbuhan payudara, mulai menstruasi, dan membuat pinggul melebar. Estrogen juga ada pada laki-laki dalam jumlah kecil dan berperan menjaga kesehatan jantung dan metabolisme tubuh mereka."
                 color="border-brand-secondary"
+                image="/images/anggota_tubuh/esterogen_icon.jpg"
                 stats={[
                     { label: "Fungsi Utama", value: "Perkembangan Seksual" },
                     { label: "Kesehatan Tulang", value: "Penting untuk Pria & Wanita" }
