@@ -7,7 +7,7 @@ interface SlideContainerProps {
 
 const SlideContainer: React.FC<SlideContainerProps> = ({ children }) => {
   return (
-    <div className="bg-brand-bg/70 backdrop-blur-sm rounded-2xl shadow-lg p-6 md:p-8 w-full h-full animate-fade-in-up overflow-y-auto">
+    <div className="bg-brand-bg/70 backdrop-blur-sm rounded-2xl shadow-lg p-6 md:p-8 w-full h-full animate-fade-in-up">
       {children}
     </div>
   );

@@ -3,7 +3,6 @@ import { Hotspot, QuizQuestion, DialogueMessage } from '../types';
 
 export const slide1Content = {
   title: "Welcome to Proud of My Changes: The Truth About Puberty!",
-  text: "Pubertas adalah masa transisi penting di mana seorang anak mengalami perubahan fisik, hormonal, dan emosional menuju dewasa yang mampu melakukan reproduksi. Pada masa pubertas, tubuh mulai memproduksi hormon khusus, yaitu testosteron pada anak laki-laki dan estrogen pada anak perempuan, yang memicu munculnya ciri-ciri seksual sekunder seperti tumbuhnya jakun dan suara yang lebih berat pada laki-laki, serta pertumbuhan payudara dan menstruasi pada perempuan. Selain itu, terjadi pertumbuhan tinggi badan, perubahan bentuk tubuh, dan aktivitas kelenjar minyak yang membuat kulit lebih berminyak. Masa ini bukan hanya perubahan fisik, tapi juga perubahan emosi dan sosial yang menuntut remaja untuk belajar menerima dirinya sendiri dan memahami peran sosialnya. Semua proses ini adalah hal yang normal dan menandai kesiapan tubuh dan jiwa menghadapi kehidupan dewasa."
 };
 
 export const maleHotspots: Hotspot[] = [

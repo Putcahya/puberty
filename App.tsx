@@ -33,7 +33,7 @@ const App: React.FC = () => {
   return (
     <div className="flex flex-col h-screen bg-brand-light text-brand-text">
       <Navbar currentPage={currentPage} onPageChange={setCurrentPage} />
-      <main className="flex-grow flex flex-col items-center justify-center p-4 md:p-8 overflow-y-auto">
+      <main className="flex-grow flex flex-col items-center justify-center p-4 md:p-8">
         <div className="w-full max-w-5xl h-full">
             {renderPage()}
         </div>
